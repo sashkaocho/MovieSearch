@@ -1,0 +1,41 @@
+* {
+   box-sizing: border-box;
+ }
+
+ :root {
+  --color-main: #f5e7a7;
+  --color-secondary: #000000;
+  --color-white: #4AC2BA;
+}
+
+.title{
+  font-size: 35px;
+  color: rgb(87, 84, 81);
+}
+
+body {
+  margin: 0;
+  background-color: var(--color-main);
+}
+
+.base {
+  height: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#movie {
+  font-size: 28px;
+  width: 800px;
+  background-color: aqua;
+  border: 2px solid var(--color-secondary);
+  border-radius: 50px;
+}
+
+#search{
+  color: black;
+  font-size: 26px;
+  background-color: aqua;
+  border-radius: 30px;
+}
